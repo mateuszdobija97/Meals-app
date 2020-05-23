@@ -45,7 +45,7 @@ const App = () => {
   return (
     <div className="App">
       <header>
-        <h1>Food Recipe App</h1>
+        <h1>What will you cook today?</h1>
         <form className="search-form" onSubmit={onSubmit}>
           {alert && <Alert alert={alert} />}
           <input type="text" value={query} onChange={e => setQuery(e.target.value)} placeholder="Search food..." />
