@@ -1,9 +1,6 @@
 import React from 'react';
-import { v4 as uuidv4 } from 'uuid';
 
-const Ingredients = ({ totalNutrients, calories }) => {
-
-    console.log(totalNutrients);
+const Ingredients = ({ totalNutrients }) => {
 
     const items = (
         <React.Fragment>
